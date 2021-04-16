@@ -6,14 +6,16 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>Profile Page</title>
+  <title>AdLister Profile</title>
+  <jsp:include page="partials/head.jsp">
+    <jsp:param name="title" value="Profile Page"/>
+  </jsp:include>
 </head>
-<body>
-
-<h1>Profile Page</h1>
-
+<body style="text-align: center">
+<%@ include file="partials/navbar.jsp" %>
+<h2>You are now logged in.</h2>
+<%@ include file="partials/footer.jsp" %>
 </body>
 </html>

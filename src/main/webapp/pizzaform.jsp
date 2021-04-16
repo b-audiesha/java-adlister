@@ -17,16 +17,17 @@
   <select name="crust" id="crust">
     <option value="stuffed">Cheesy Crust</option>
     <option value="thin">Thin Crust</option>
+    <option value="thin">Stuff It</option>
   </select>
 
   <label for="pepperoni">Pepperoni</label>
   <input type="checkbox" name="topping" id="pepperoni" value="pepperoni">
   <label for="sausage">Sausage</label>
   <input type="checkbox" name="topping" id="sausage" value="sausage">
-  <label for="peppers">Xtreme Cheese</label>
+  <label for="peppers">Xtreme Cheese-y</label>
   <input type="checkbox" name="topping" id="peppers" value="peppers">
 
-  <label for="address">Address:</label>
+  <label for="address">Delivery Address:</label>
   <input type="text" name="address" id="address">
 
   <button type="submit">Order up!</button>
